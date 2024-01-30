@@ -13,7 +13,7 @@ export class Extension {
     /**
      * Start connection with G-Earth
      */
-    run(): void;
+    run(host?: string): void;
 
     /**
      * Send a message to the client
